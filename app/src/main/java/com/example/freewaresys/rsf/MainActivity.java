@@ -51,10 +51,7 @@ TextView text1,text2;
         Bottombar.mapColorForTab(3,"#0000FF");
         Bottombar.mapColorForTab(4,"#0805FF");
         Bottombar.mapColorForTab(5,"#0488FF");
-text1=(TextView)findViewById(R.id.tv3);
-        text1.setTypeface(Typeface.DEFAULT_BOLD);
-        text2=(TextView)findViewById(R.id.tv4);
-        text2.setTypeface(Typeface.SANS_SERIF,Typeface.ITALIC);
+
 
     }
 }
