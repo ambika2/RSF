@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/BottomBarItemOne"
+        android:icon="@drawable/ic_account_circle"
+        android:title="About Us"
+        />
+    <item
+        android:id="@+id/BottomBarItemTwo"
+        android:icon="@drawable/ic_account_circle"
+        android:title="Projects"
+        />
+    <item
+        android:id="@+id/BottomBarItemThree"
+        android:icon="@drawable/ic_account_circle"
+        android:title="More"
+        />
+    <item
+        android:id="@+id/BottomBarItemFour"
+        android:icon="@drawable/ic_account_circle"
+        android:title="Pledge"
+        />
+    <item
+        android:id="@+id/BottomBarItemFive"
+        android:icon="@drawable/ic_account_circle"
+        android:title="Our Team"
+        />
+
+    <item
+        android:id="@+id/BottomBarItemSix"
+        android:icon="@drawable/ic_account_circle"
+        android:title="Contact Us"
+        />
+</menu>

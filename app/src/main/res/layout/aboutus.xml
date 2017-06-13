@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:text="Who Are We!"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:gravity="center"
+        android:text="Founded in 2015, Reaching Sky Foundation is a youth oriented non-governmental organization based in New Delhi. Our mission is to wisely direct the power of youth in India, with an increased understanding of social issues along with
+the desire to be the initiators and value generators thus bringing the change admired. We can presently be also understood as fresh group of social entrepreneurs operating on local levels with a vision to grow to national level in an effort to enhance the potential of individuals for creating powerful society which is not only well employed but also practices the fundamental and human rights."
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv1"
+        android:layout_below="@+id/tv2"
+        android:gravity="center"
+        android:lineSpacingExtra="2mm"
+        android:text="  Reaching Sky Foundation  "
+        android:textColor="#66CCCC"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineSpacingExtra="2mm"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="A Youth Oriented Organisation"
+        android:layout_weight="0.52" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:text="Be Awesome With Us"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+</LinearLayout>
+</ScrollView>
