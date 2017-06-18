@@ -3,9 +3,84 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reaching"
+            android:textColor="#001AFF"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Sky Foundation"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Contact Us Fragment" />
+        android:text="B-212 Jawahar Park Khanpur"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Near Sainik Farms"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Delhi 110080"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="(+91) 837 705 5874"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="contactus@reachingsky.org"
+        android:layout_marginTop="5dp"
+        android:textColor="#00BFFF"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/bb_darkBackgroundColor"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:text="Ask us!"
+        android:onClick="onClick" />
+
 </LinearLayout>
