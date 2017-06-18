@@ -37,6 +37,14 @@ TextView text1,text2;
                 else if (i == R.id.BottomBarItemFour) {
                     PledgeFragment f = new PledgeFragment();
                     getFragmentManager().beginTransaction().replace(R.id.frame, f).commit();
+                } 
+                else if (i == R.id.BottomBarItemFive) {
+                    OurTeamfragment f = new OurTeamfragment();
+                    getFragmentManager().beginTransaction().replace(R.id.frame, f).commit();
+                }
+                else if (i == R.id.BottomBarItemSix) {
+                    ContactUsFragment f = new ContactUsFragment();
+                    getFragmentManager().beginTransaction().replace(R.id.frame, f).commit();
                 }
             }
 
