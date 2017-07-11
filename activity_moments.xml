@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="org.reachingsky.www.reachingskyfoundation.Activities.MomentsActivity">
+
+    <TextView
+        android:id="@+id/moments_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/input_online1"
+        android:backgroundTint="#1d87e5"
+        android:text="          Our Moments !"
+        android:textColor="#ffffff"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/m0" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp" >
+        <RadioButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:checked="true"
+            android:id="@+id/rb0"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:checked="false"
+            android:id="@+id/rb1"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:checked="false"
+            android:id="@+id/rb2"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:checked="false"
+            android:id="@+id/rb3"
+            android:onClick="onRadioButtonClicked"/>
+
+        </RadioGroup>
+
+
+</RelativeLayout>
